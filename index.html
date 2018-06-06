@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script type="text/javascript">
+　　var lang = (navigator.systemLanguage?navigator.systemLanguage:navigator.language);
+　　//获取浏览器配置语言 #括号内是个运算，运算过后赋值给lang，当?前的内容为true时把?后的值赋给lang，为False时把:后的值赋给lang
+　　var lang = lang.substr(0, 2);//获取lang字符串的前两位
+　　if(lang == 'zh'){
+    　　window.location.href="index_zh.html";
+　　}else{
+   　　 window.location.href="index_en.html";
+　　};
+</script>
