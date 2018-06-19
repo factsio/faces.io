@@ -13,8 +13,17 @@ body,html{
 .first_screen{
     width: 100%; height: 100%; background: url(../images/phone_first_bg.jpg) no-repeat; background-size: cover; background-position: center;
 }
+.faq_screen{
+    width: 100%; height: 20%; background: url(../images/phone_first_bg.jpg) no-repeat; background-size: cover; background-position: center;
+}
+.faq_home{
+    color: #fff; position: absolute; top: 10px; right: 100px; text-decoration: underline;
+}
+.faq_language{
+    color: #fff; position: absolute; top: 10px; right: 20px; text-decoration: underline;
+}
 h1{
-    color: #fff; font-size: 60px; letter-spacing: 6px; text-align: center; margin:0 auto; padding-top: 100px; font-weight: normal;
+    color: #fff; font-size: 60px; letter-spacing: 6px; text-align: center; margin:0 auto; padding-top: 48px; font-weight: normal;
 }
 h2{
     color: #fff; font-size: 22px; letter-spacing: 2px; text-align: center; font-weight: normal; margin-bottom:180px; margin-top: 100px;
@@ -35,6 +44,15 @@ h3{
     color: #fff; position: absolute; top: 10px; right: 20px; text-decoration: underline;
 }
 
+.descqq{
+    font-size: 18px;color: #444; font-weight: bold; text-align: left; line-height: 38px;
+}
+.descqqsub{
+    font-size: 16px;color: #444; font-weight: bold; text-align: left; line-height: 40px;
+}
+.descsub{
+    font-size: 16px; font-style: italic;
+}
 .sub_tit{
     font-size: 20px; text-align: center; margin:30px auto 40px; color: #444; letter-spacing: 0.5px; font-weight: bold;
 }
@@ -51,9 +69,8 @@ h3{
     width: 90%; display: block; margin:20px auto ;
 }
 .fea_list span{
-    font-size: 16px; width: 90%; margin:0 auto; display: block; color: #4c4c4c;  letter-spacing: 1px; text-align: justify;
+    width: 90%; margin:0 auto; display: block; color: #4c4c4c;  letter-spacing: 1px; text-align: justify;
 } 
-
 
 
 .content_part{

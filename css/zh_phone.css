@@ -9,11 +9,12 @@ input[type="submit"],input[type="reset"],input[type="button"],input{
 body,html{
     height: 100%;
 }
+
 .first_screen{
     width: 100%; height: 100%; background: url(../images/phone_first_bg.jpg) no-repeat; background-size: cover; background-position: center;
 }
 .faq_home{
-    color: #fff; position: absolute; top: 10px; right: 90px; text-decoration: underline;
+    color: #fff; position: absolute; top: 10px; right: 100px; text-decoration: underline;
 }
 .faq_language{
     color: #fff; position: absolute; top: 10px; right: 20px; text-decoration: underline;
@@ -56,7 +57,7 @@ h3{
     width: 90%; display: block; margin:20px auto ;
 }
 .fea_list span{
-    font-size: 16px; width: 90%; margin:0 auto; display: block; color: #4c4c4c; word-break : break-all;
+    font-size: 16px; width: 90%; margin:0 auto; display: block; color: #4c4c4c;  letter-spacing: 1px; text-align: justify;
 } 
 
 
@@ -71,12 +72,12 @@ h3{
     font-size: 17px; text-align: center; margin:30px auto; color: #333;
 }
 .content_part span{
-    width: 90%; margin:0 auto; display: block; color: #4c4c4c;  word-break : break-all;
+     width: 90%; margin:0 auto; display: block; text-align: justify; color: #4c4c4c; letter-spacing: 1px;
 }
 
 
 .scene_part{
-    width: 100%; height: 670px; background: url(../images/phone_scene_bg.png) no-repeat; background-size: cover; padding-top: 10px;
+    width: 100%; height: 650px; background: url(../images/phone_scene_bg.png) no-repeat; background-size: cover; padding-top: 10px;
 }
 .scene_part .sub_tit{
     color: #fff; margin-bottom: 10px; font-weight: normal;
@@ -127,7 +128,7 @@ h3{
         font-size: 50px;
     }
     h2{
-        margin:80px 0 110px; font-size: 20px;
+        margin:90px 0 150px; font-size: 20px;
     }
     .btn_box{
         width: 310px; margin:50px auto 0;
@@ -175,7 +176,7 @@ h3{
         margin:30px auto;
     }
     .scene_part{
-        height: 580px;
+        height: 560px;
     }
     .scene_list{
         margin-top: 30px;

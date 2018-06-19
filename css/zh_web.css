@@ -47,7 +47,7 @@ a{
     color: #68c1e6; height: 60px; width: auto; padding:0 10px; display: block; border-bottom: 2px solid #68c1e6; margin:0 auto;
 }
 .lan_list{
-    position: absolute; top: 60px; right: 0; z-index: 10; width: 200px; background: #0c1726; display: none;
+    position: absolute; top: 60px; z-index: 10; right:0; width: 120px; background: #0c1726; display: none;
 }
 .lan_list li{
     color: #fff; float: none; height: 40px; line-height: 40px; border-bottom: 1px solid #333; cursor: pointer;

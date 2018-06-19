@@ -12,6 +12,9 @@ body,html{
 .first_screen{
     width: 100%; height: 100%; background: url(../images/phone_first_bg.jpg) no-repeat; background-size: cover; background-position: center;
 }
+.faq_screen{
+    width: 100%; height: 20%; background: url(../images/phone_first_bg.jpg) no-repeat; background-size: cover; background-position: center;
+}
 .faq_home{
     color: #fff; position: absolute; top: 10px; right: 90px; text-decoration: underline;
 }
@@ -19,7 +22,7 @@ body,html{
     color: #fff; position: absolute; top: 10px; right: 20px; text-decoration: underline;
 }
 h1{
-    color: #fff; font-size: 60px; letter-spacing: 6px; text-align: center; margin:0 auto; padding-top: 100px; font-weight: normal;
+    color: #fff; font-size: 60px; letter-spacing: 6px; text-align: center; margin:0 auto; padding-top: 48px; font-weight: normal;
 }
 h2{
     color: #fff; font-size: 22px; letter-spacing: 2px; text-align: center; font-weight: normal; margin-bottom:180px; margin-top: 100px;
@@ -37,9 +40,21 @@ h3{
     float: right;
 }
 .first_screen span{
-    color: #fff; position: absolute; top: 10px; text-decoration: underline;
+    color: #fff; position: absolute; top: 10px; right: 20px; text-decoration: underline;
 }
 
+.descqq{
+    font-size: 18px;color: #444; font-weight: bold; text-align: left; line-height: 38px; word-break: word-wrap;
+}
+.descqqsub{
+    font-size: 16px;color: #444; font-weight: bold; text-align: left; line-height: 40px;
+}
+.descsub{
+    font-size: 16px; font-style: italic;
+}
+.sub_tit{
+    font-size: 20px; text-align: center; margin:30px auto 40px; color: #444; letter-spacing: 0.5px; font-weight: bold;
+}
 .sub_tit{
     font-size: 20px; text-align: center; margin:30px auto 40px; color: #444; letter-spacing: 0.5px; font-weight: bold;
 }
@@ -56,7 +71,7 @@ h3{
     width: 90%; display: block; margin:20px auto ;
 }
 .fea_list span{
-    font-size: 16px; width: 90%; margin:0 auto; display: block; color: #4c4c4c; word-break : break-all;
+    font-size: 16px; width: 90%; margin:0 auto; display: block; color: #4c4c4c; 
 } 
 
 

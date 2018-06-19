@@ -18,12 +18,39 @@ a{
 }
 
 
+.faq_screen{
+    width: 100%; height: 150px; background: url(../images/first_screen_bg.jpg) no-repeat; background-size: cover; background-position: center;
+}
+.faq_home{
+    color: #fff; position: absolute; top: 10px; right: 90px; text-decoration: underline;
+}
+.faq_language{
+    color: #fff; position: absolute; top: 10px; right: 20px; text-decoration: underline;
+}
+
+.descqq{
+    font-size: 18px;color: #444; font-weight: bold; text-align: left; line-height: 38px;
+}
+.descqqsub{
+    font-size: 16px;color: #444; font-weight: bold; text-align: left; line-height: 40px;
+}
+.descsub{
+    font-size: 16px; font-style: italic;
+}
+.sub_tit{
+    font-size: 20px; text-align: center; margin:30px auto 40px; color: #444; letter-spacing: 0.5px; font-weight: bold;
+}
+
+.fea_list span{
+    width: 90%; margin:0 auto; display: block; color: #4c4c4c;  letter-spacing: 1px; text-align: justify;
+} 
+
 
 .wrap{
     
 }
 .header{
-    width: 100%; height:65px; margin:0 auto; position: fixed; top: 0; left:0; padding:0 15%; box-sizing:border-box; transition: all 0.5s ease 0s;
+    width: 100%; height:65px; margin:0 auto; /*overflow: hidden;*/ position: fixed; top: 0; left:0; padding:0 15%; box-sizing:border-box; transition: all 0.5s ease 0s;
 }
 .header.active{
     background: #0c1726;
@@ -41,13 +68,13 @@ a{
     float: left; color: #fff; width: auto; padding:0 20px; text-align: center; line-height: 65px;
 }
 .nav li a{
-    padding:0 10px;  height: 65px; display: block; cursor: pointer;
+    padding:0 10px; height: 65px; display: block; cursor: pointer;
 }
 .nav li.current a{
     color: #68c1e6; height: 60px; width: auto; padding:0 10px; display: block; border-bottom: 2px solid #68c1e6; margin:0 auto;
 }
 .lan_list{
-    position: absolute; top: 60px; right: 0; z-index: 10; width: 140px; background: #0c1726; display: none;
+    position: absolute; top: 60px; z-index: 10; right:0; width: 120px; background: #0c1726; display: none;
 }
 .lan_list li{
     color: #fff; float: none; height: 40px; line-height: 40px; border-bottom: 1px solid #333; cursor: pointer;
@@ -56,7 +83,7 @@ a{
     width: 100%; height: 600px; background: url(../images/first_screen_bg.jpg) no-repeat; background-size: cover; background-position: center;
 }
 .main{
-    /*width: 900px;*/ margin:0 auto;
+    width: 900px; margin:0 auto;
 }
 h1{
     color: #fff; font-size: 75px; letter-spacing: 10px; text-align: center; margin:0 auto -10px; padding-top: 140px;
@@ -71,7 +98,7 @@ h3{
     width: 450px; overflow: hidden; margin:60px auto 0;
 }
 .btn_box button{
-    width:180px; height: 40px; border-radius: 6px; border:1px solid #fff; color: #fff; transition: all 0.5s ease 0s; cursor: pointer; float: left; font-size: 16px;
+    width:180px; height: 40px; border-radius: 6px; border:1px solid #fff; color: #fff; transition: all 0.5s ease 0s; cursor: pointer; float: left; font-size: 14px;
 }
 .btn_box button:nth-child(2){
     float: right;
@@ -83,7 +110,7 @@ h3{
 
 /*特性*/
 .features_part{
-    width: 100%; height: 500px; background: #fff; padding-top: 60px; padding-bottom: 60px;
+    width: 100%;  background: #fff; padding-top: 60px; padding-bottom: 60px;
 }
 .part_tit{
     width: 30%!important; max-width: 500px!important; margin:0 auto; display: block;
@@ -142,7 +169,7 @@ h3{
     font-size: 18px; text-align: center; margin:0 auto 20px;
 }
 .content_part p:nth-child(4){
-    font-size: 13px; line-height: 20px; margin-bottom: 0; width: 60%;
+    font-size: 13px; line-height: 20px; margin-bottom: 0;
 }
 
 
@@ -151,7 +178,7 @@ h3{
     width:100%; height:650px; background:url(../images/scene_bg.png) no-repeat; background-size: cover; background-position: center; padding-top: 60px; box-sizing:border-box;
 }
 .scene_part .content_pic{
-    width:40%; margin-top: 80px; max-width: 700px;
+    width:40%; margin-top: 60px; max-width: 700px;
 }
 
 
