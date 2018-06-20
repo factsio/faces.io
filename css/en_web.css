@@ -41,7 +41,7 @@ a{
     float: left; color: #fff; width: auto; padding:0 20px; text-align: center; line-height: 65px;
 }
 .nav li a{
-    padding:0 10px;  height: 65px; display: block; cursor: pointer;
+    padding:0 10px;  height: 65px; display: block; cursor: pointer;color: #fff;
 }
 .nav li.current a{
     color: #68c1e6; height: 60px; width: auto; padding:0 10px; display: block; border-bottom: 2px solid #68c1e6; margin:0 auto;
