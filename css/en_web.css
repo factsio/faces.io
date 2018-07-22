@@ -96,7 +96,7 @@ h3{
 }
 
 .font_desc p{
-    height: 200px; padding:0 10px; transition: all 0.5s ease 0s;
+    height: 230px; padding:0 10px; transition: all 0.5s ease 0s;
 }
 .font_desc p.current u{
     color: #00519e;
@@ -136,7 +136,7 @@ h3{
     width: 100%;
 }
 .content_pic{
-    width: 20%; display: block; margin:50px auto;
+    width: 40%; display: block; margin:50px auto;
 }
 .content_part p{
     font-size: 18px; text-align: center; margin:0 auto 20px;
