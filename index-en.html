@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<link rel="stylesheet" type="text/css" href="css/index.css"/>
-	<title></title>
+	<title>FACTS—Construction of authentic Internet Content Ecosystem</title>
 </head>
 <body class="en">
 <div class="header">
@@ -30,7 +30,7 @@
 <div class="container">	
 	<div class="banner">
 		<div class="video">
-			<video  src="images/video.mp4"  autoplay="true" loop="true" playsinline="" preload="metadata"></video>
+			<video  src="images/video.mp4"  autoplay="true" loop="loop" playsinline="" preload="metadata"></video>
 		</div>
 		<div class="topic">
 			<h2><img src="images/facts.png"/></h2>
@@ -158,10 +158,11 @@
 		<div class="wrap clearfix">
 			<p class="hui-logo fl"></p>
 			<p class="fr clearfix">Contact Us：
-				<a href="" class="link1"></a>
-				<a href="" class="link2"></a>
-				<a href="" class="link3"></a>
-				<a href="" class="link4"></a>
+			<a href="https://www.facebook.com/io.facts.3" class="link1"></a>
+			<a href="https://twitter.com/Facts_IO" class="link2"></a>
+			<a href="https://t.me/factsio" class="link3"></a>
+			<a href="javascript:void(0)" class="link4" onmouseover="showhideImg(this, 'wxImg','block')" onMouseOut="showhideImg(this, 'wxImg','none')" ></a>
+			<div id="wxImg" style="display:none;height:32px;width:35%;back-ground:#f00;position:absolute;color:#ffffff;"><em><img src="images/weichat_code_mini.png"/></em><br/>wechat accounts</div>
 			</p>
 		</div>
 	</div>
@@ -204,6 +205,14 @@ $(document).ready(function(e) {
 });	
 
 	
+	
+function showhideImg(obthis, imgid, showcode){
+	var oboff=$(obthis).offset();
+	var obleft = oboff.left - 40;
+	var obtop = oboff.top - 140;
+	$('#'+imgid).css({'left':obleft + 'px','top':obtop+'px'});
+	$('#'+imgid).css("display",showcode);
+}	
 	
 	
 	
