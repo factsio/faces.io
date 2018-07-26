@@ -233,7 +233,9 @@ table{border-collapse:collapse;border-spacing:0;}
 }
 @media only screen and (max-width:414px) {
 #nav li a, .header .change { line-height: 44px;}
-.sec-box-2 p {width: 66%;}
+.sec-box-2 p {width: 95%;margin-top: 10px;}
+.sec-box-2 img { margin-top: 15px;position:static;width: 120%;margin-left:-37%;}
+.section-2 {padding-bottom: 34px;}
 .sec-box-2 b { font-size: 16px;}
 .section-3 .zx2 {width:18px;top: 61px;left:23px;}
 .section-7 li {margin-top:50px;height:126px;padding: 104px 4% 0;}
@@ -246,6 +248,9 @@ table{border-collapse:collapse;border-spacing:0;}
 .contact .fr a {margin: 0 5px;}
 .footer {padding:20px 0 20px;}
 .footer p {font-size: 14px;}
+
+
+
 }
 @media only screen and (max-width:360px) {
 .h2title {padding: 30px 0 15px;font-size: 20px;}
@@ -265,7 +270,7 @@ table{border-collapse:collapse;border-spacing:0;}
 .wtitle{font-weight:normal;padding:70px 0 0;font-size:40px;font-family:helvetica;text-align: center;width:100%;color:#0b1845;}
 .wtitle span{margin-bottom:10px;font-size:20px;display: block;letter-spacing:4px;font-weight:lighter;}
 .wenti{margin-top: 90px;}
-.wenti .wen{margin-bottom: 64px;width:568px;word-break:normal;}
+.wenti .wen{margin-bottom: 64px;width:568px;}
 .wenti h3{margin-bottom:25px;color:#0b1845;font-size:20px;line-height:27px;font-weight:bold;}
 .wenti b,.wenti p{color:#657096;font-size:16px;line-height:31px;}
 .wenti b{font-weight:bold;}
