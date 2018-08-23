@@ -2,7 +2,7 @@ html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,input,p,a,th,td,form,input
 li{list-style:none}
 a{text-decoration:none;}em,i{font-style:normal;}
 a:hover{text-decoration:none;}.fl{float:left;}.fr{float:right;}
-body,html,div{font-family: "寰蒋闆呴粦";font-size:16px;color:#333;}em,i{font-style: normal;}
+body,html,div{font-family: "微软雅黑";font-size:16px;color:#333;}em,i{font-style: normal;}
 .clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}
 table{border-collapse:collapse;border-spacing:0;}
 .wrap{max-width:1200px;margin-left:auto;margin-right:auto;}
