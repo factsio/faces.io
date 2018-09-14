@@ -6,7 +6,7 @@ it's best to follow us on [Twitter](http://twitter.com/berlinjs)
 
 * Website: http://facts.io/
 * Twitter: http://twitter.com/berlinjs
-* Telegram: https://t.me/factsio
+* Telegram: https://t.me/Chinese_Facts
 * Facebook: https://www.facebook.com/io.facts.3
 
 
